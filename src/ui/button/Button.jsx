@@ -1,10 +1,3 @@
-# React Js Reusable components
-
-1. [Simple Reusable Button](#simple-reusable-button)
-
-## Simple Reusable Button
-
-```
 /* eslint-disable react/display-name */
 import { forwardRef } from "react";
 import { cn } from "../../utils/cn";
@@ -38,5 +31,3 @@ const Button = forwardRef(
 );
 
 export default Button;
-
-```
